@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="Quara.css">
+</head>
+<body>
+
+  <!-- Wexore Logo -->
+  <div class="quara-logo">
+    <h2>WEXORE</h2>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Typing Animation -->
+    <div id="typing"><B>W E X O R E</B></div>
+
+    <!-- Login Form -->
+    <div class="login-container" id="loginBox">
+      <h2>WEXORE</h2>
+             <input type="text" placeholder="Username" id="username" />
+               <input type="password" placeholder="Password" id="password" />
+                    <button id="loginBtn">Log In</button>
+                  <button id="signupBtn">Sign Up</button>
+           <p>Not a member? <a href="#" id="goToRegister">Create account</a></p>
+    </div>
+
+    <!-- Register Form -->
+    <div class="login-container" id="registerBox">
+      <h2>Create Account</h2>
+                <input type="text" placeholder="Full Name" id="regName" required />
+                   <input type="email" placeholder="Email" id="regEmail" required />
+                       <span id="emailError" class="error"></span>
+                           <input type="text" placeholder="Username" id="regUsername" required />
+                              <input type="password" placeholder="Create Password" id="regPassword" required />
+      <span id="strengthMsg" class="strength"></span>
+                 <input type="password" placeholder="Confirm Password" id="regConfirm" required />
+                     <span id="matchError" class="error"></span>
+      <button id="registerBtn">Register</button>
+            <p>Already have an account? <a href="#" id="goToLogin">Back to Login</a></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About Wexore</h3>
+        <p>A modern login and registration system with enhanced security features and beautiful UI design.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Features</h3>
+        <ul>
+          <li>Secure Authentication</li>
+          <li>Password Strength Checker</li>
+          <li>Email Validation</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p>Email: info@wexore.com</p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Address: 123 Tech Street, Digital City</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Wexore. All rights reserved. | Privacy Policy | Terms of Service</p>
+    </div>
+  </footer>
+
+  <script src="Quara.js">
+   
+  </script>
+</body>
+</html>
